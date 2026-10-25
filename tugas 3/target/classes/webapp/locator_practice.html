@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latihan Locator Selenium</title>
+    <style>
+        body { font-family: Arial, sans-serif; max-width: 960px; margin: 32px auto; padding: 0 20px; color: #1f2937; }
+        nav, section, form { margin-bottom: 28px; padding: 20px; border: 1px solid #d1d5db; border-radius: 8px; }
+        label { display: inline-block; min-width: 150px; margin: 6px 0; }
+        input, textarea, select { margin: 4px 0; padding: 6px; }
+        textarea { display: block; width: 360px; min-height: 64px; }
+        table { width: 100%; border-collapse: collapse; }
+        th, td { padding: 10px; border: 1px solid #d1d5db; text-align: left; }
+        .status-badge { font-weight: bold; }
+        .active { color: #166534; }
+        .inactive { color: #991b1b; }
+        .skill-item { margin: 4px 0; }
+    </style>
+</head>
+<body>
+<header>
+    <h1 id="page-title" class="main-title" data-role="heading">Latihan Locator Selenium</h1>
+    <p>Aplikasi web lokal untuk praktik locator, CSS Selector, dan XPath.</p>
+</header>
+
+<nav id="main-nav" aria-label="Navigasi utama">
+    <a id="docs-link" class="nav-link" href="#documentation" title="Dokumentasi locator">Dokumentasi Selenium</a>
+    <a id="help-link" class="nav-link secondary-link" href="#help" title="Bantuan pengguna">Pusat Bantuan</a>
+</nav>
+
+<form id="registration-form" action="#" method="get">
+    <h2>Formulir Pengguna</h2>
+    <label for="full-name">Nama lengkap</label>
+    <input id="full-name" name="fullName" class="form-control" type="text" placeholder="Nama lengkap">
+    <br>
+    <label for="user-email">Email</label>
+    <input id="user-email" name="userEmail" class="form-control email-input" data-purpose="customer-email" type="email">
+    <br>
+    <label for="city">Kota</label>
+    <input id="city" name="city" class="form-control" type="text" value="Jakarta">
+    <br>
+    <label>Jenis kelamin</label>
+    <input id="gender-male" name="gender" class="form-check-input" type="radio" value="Male" checked>
+    <label for="gender-male">Laki-laki</label>
+    <input id="gender-female" name="gender" class="form-check-input" type="radio" value="Female">
+    <label for="gender-female">Perempuan</label>
+    <br>
+    <label for="country">Negara</label>
+    <select id="country" name="country" class="form-select">
+        <option value="ID" selected>Indonesia</option>
+        <option value="MY">Malaysia</option>
+        <option value="SG">Singapura</option>
+    </select>
+    <br>
+    <label for="notes">Catatan</label>
+    <textarea id="notes" name="notes" class="form-control">Catatan awal</textarea>
+    <input id="terms" name="terms" class="form-check-input" type="checkbox" value="accepted">
+    <label for="terms">Menyetujui ketentuan</label>
+    <br>
+    <button id="submit-button" name="submitButton" class="btn primary-button" type="submit">Kirim Formulir</button>
+    <p id="form-status" class="status-message" data-state="initial" role="status">Formulir siap diisi</p>
+</form>
+
+<section id="documentation">
+    <h2>Dokumentasi</h2>
+    <p>Gunakan halaman ini tanpa koneksi ke aplikasi eksternal.</p>
+</section>
+
+<section id="css-playground">
+    <h2>Latihan CSS Selector</h2>
+    <h3 id="profile-heading">Profil Pengguna</h3>
+    <p id="profile-summary">Ringkasan profil Andi</p>
+    <div id="profile-panel" class="panel" data-section="profile">
+        <span class="label">Nama</span>
+        <span class="value">Andi</span>
+    </div>
+    <ul id="skill-list" class="skills">
+        <li id="skill-id" class="skill-item" data-level="basic">ID</li>
+        <li id="skill-name" class="skill-item" data-level="basic">Name</li>
+        <li id="skill-css" class="skill-item" data-level="advanced">CSS Selector</li>
+        <li id="skill-xpath" class="skill-item" data-level="advanced">XPath</li>
+    </ul>
+</section>
+
+<section id="dynamic-data">
+    <h2>Data Dinamis</h2>
+    <div id="session-info">
+        <span id="session-code">SESSION-2026-001</span>
+        <span id="welcome-message">Selamat datang, Andi</span>
+    </div>
+    <table id="user-table">
+        <thead>
+        <tr><th>Nama</th><th>Peran</th><th>Status</th><th>Aksi</th></tr>
+        </thead>
+        <tbody id="user-table-body">
+        <tr id="user-row-101" data-user-id="101">
+            <td class="user-name">Andi</td>
+            <td class="user-role">Admin</td>
+            <td class="user-status"><span class="status-badge active">Aktif</span></td>
+            <td class="user-actions"><button type="button" class="edit-user" data-action="edit">Ubah Andi</button></td>
+        </tr>
+        <tr id="user-row-102" data-user-id="102">
+            <td class="user-name">Budi</td>
+            <td class="user-role">User</td>
+            <td class="user-status"><span class="status-badge inactive">Nonaktif</span></td>
+            <td class="user-actions"><button type="button" class="edit-user" data-action="edit">Ubah Budi</button></td>
+        </tr>
+        <tr id="user-row-103" data-user-id="103">
+            <td class="user-name">Citra</td>
+            <td class="user-role">Manager</td>
+            <td class="user-status"><span class="status-badge active">Aktif</span></td>
+            <td class="user-actions"><button type="button" class="edit-user" data-action="edit">Ubah Citra</button></td>
+        </tr>
+        </tbody>
+    </table>
+</section>
+
+<section id="help">
+    <h2>Bantuan</h2>
+    <p>Semua elemen dan data pada halaman ini bersifat statis agar pengujian deterministik.</p>
+</section>
+
+<script>
+    document.getElementById('registration-form').addEventListener('submit', function (event) {
+        event.preventDefault();
+        const status = document.getElementById('form-status');
+        status.textContent = 'Formulir berhasil dikirim';
+        status.dataset.state = 'submitted';
+    });
+</script>
+</body>
+</html>

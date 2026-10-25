@@ -1,0 +1,160 @@
+<html>
+<head>
+<title>TestNG:  Surefire test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Surefire test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>16/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Sun Oct 25 20:58:26 WIB 2026</td>
+</tr>
+<tr><td>Total time:</td><td>44 seconds (44841 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.juaracoding.locators.DynamicXPathAxesTest.shouldNavigateUsingAncestor()'><b>shouldNavigateUsingAncestor</b><br>Test class: com.juaracoding.locators.DynamicXPathAxesTest<br>Test method: XPath ancestor untuk menemukan konteks baris tabel</td>
+<td></td>
+<td>0</td>
+<td>com.juaracoding.locators.DynamicXPathAxesTest@37e547da</td></tr>
+<tr>
+<td title='com.juaracoding.locators.DynamicXPathAxesTest.shouldLocateDynamicText()'><b>shouldLocateDynamicText</b><br>Test class: com.juaracoding.locators.DynamicXPathAxesTest<br>Test method: XPath untuk teks dan atribut dinamis</td>
+<td></td>
+<td>0</td>
+<td>com.juaracoding.locators.DynamicXPathAxesTest@37e547da</td></tr>
+<tr>
+<td title='com.juaracoding.locators.BasicEightLocatorsTest.shouldLocateElementById()'><b>shouldLocateElementById</b><br>Test class: com.juaracoding.locators.BasicEightLocatorsTest<br>Test method: Locator 1: By.id</td>
+<td></td>
+<td>0</td>
+<td>com.juaracoding.locators.BasicEightLocatorsTest@3e3047e6</td></tr>
+<tr>
+<td title='com.juaracoding.locators.BasicEightLocatorsTest.shouldLocateElementByCssSelector()'><b>shouldLocateElementByCssSelector</b><br>Test class: com.juaracoding.locators.BasicEightLocatorsTest<br>Test method: Locator 7: By.cssSelector</td>
+<td></td>
+<td>0</td>
+<td>com.juaracoding.locators.BasicEightLocatorsTest@3e3047e6</td></tr>
+<tr>
+<td title='com.juaracoding.locators.AdvancedCssSelectorTest.shouldUseSubstringMatchers()'><b>shouldUseSubstringMatchers</b><br>Test class: com.juaracoding.locators.AdvancedCssSelectorTest<br>Test method: CSS substring matchers: starts-with, ends-with, dan contains</td>
+<td></td>
+<td>0</td>
+<td>com.juaracoding.locators.AdvancedCssSelectorTest@4de5031f</td></tr>
+<tr>
+<td title='com.juaracoding.locators.AdvancedCssSelectorTest.shouldUseDirectChildCombinator()'><b>shouldUseDirectChildCombinator</b><br>Test class: com.juaracoding.locators.AdvancedCssSelectorTest<br>Test method: CSS direct child combinator</td>
+<td></td>
+<td>0</td>
+<td>com.juaracoding.locators.AdvancedCssSelectorTest@4de5031f</td></tr>
+<tr>
+<td title='com.juaracoding.locators.AdvancedCssSelectorTest.shouldUseAdjacentSiblingCombinator()'><b>shouldUseAdjacentSiblingCombinator</b><br>Test class: com.juaracoding.locators.AdvancedCssSelectorTest<br>Test method: CSS adjacent sibling combinator</td>
+<td></td>
+<td>0</td>
+<td>com.juaracoding.locators.AdvancedCssSelectorTest@4de5031f</td></tr>
+<tr>
+<td title='com.juaracoding.locators.DynamicXPathAxesTest.shouldUseBooleanConditions()'><b>shouldUseBooleanConditions</b><br>Test class: com.juaracoding.locators.DynamicXPathAxesTest<br>Test method: XPath dengan kondisi boolean AND dan OR</td>
+<td></td>
+<td>0</td>
+<td>com.juaracoding.locators.DynamicXPathAxesTest@37e547da</td></tr>
+<tr>
+<td title='com.juaracoding.locators.AdvancedCssSelectorTest.shouldUsePseudoClasses()'><b>shouldUsePseudoClasses</b><br>Test class: com.juaracoding.locators.AdvancedCssSelectorTest<br>Test method: CSS pseudo-classes: nth-child, first-child, last-child, checked, dan not</td>
+<td></td>
+<td>0</td>
+<td>com.juaracoding.locators.AdvancedCssSelectorTest@4de5031f</td></tr>
+<tr>
+<td title='com.juaracoding.locators.BasicEightLocatorsTest.shouldLocateElementByLinkText()'><b>shouldLocateElementByLinkText</b><br>Test class: com.juaracoding.locators.BasicEightLocatorsTest<br>Test method: Locator 5: By.linkText</td>
+<td></td>
+<td>0</td>
+<td>com.juaracoding.locators.BasicEightLocatorsTest@3e3047e6</td></tr>
+<tr>
+<td title='com.juaracoding.locators.BasicEightLocatorsTest.shouldLocateElementByClassName()'><b>shouldLocateElementByClassName</b><br>Test class: com.juaracoding.locators.BasicEightLocatorsTest<br>Test method: Locator 3: By.className</td>
+<td></td>
+<td>0</td>
+<td>com.juaracoding.locators.BasicEightLocatorsTest@3e3047e6</td></tr>
+<tr>
+<td title='com.juaracoding.locators.BasicEightLocatorsTest.shouldLocateElementByTagName()'><b>shouldLocateElementByTagName</b><br>Test class: com.juaracoding.locators.BasicEightLocatorsTest<br>Test method: Locator 4: By.tagName</td>
+<td></td>
+<td>0</td>
+<td>com.juaracoding.locators.BasicEightLocatorsTest@3e3047e6</td></tr>
+<tr>
+<td title='com.juaracoding.locators.BasicEightLocatorsTest.shouldLocateElementByName()'><b>shouldLocateElementByName</b><br>Test class: com.juaracoding.locators.BasicEightLocatorsTest<br>Test method: Locator 2: By.name</td>
+<td></td>
+<td>0</td>
+<td>com.juaracoding.locators.BasicEightLocatorsTest@3e3047e6</td></tr>
+<tr>
+<td title='com.juaracoding.locators.BasicEightLocatorsTest.shouldLocateElementByPartialLinkText()'><b>shouldLocateElementByPartialLinkText</b><br>Test class: com.juaracoding.locators.BasicEightLocatorsTest<br>Test method: Locator 6: By.partialLinkText</td>
+<td></td>
+<td>0</td>
+<td>com.juaracoding.locators.BasicEightLocatorsTest@3e3047e6</td></tr>
+<tr>
+<td title='com.juaracoding.locators.BasicEightLocatorsTest.shouldLocateElementByXPath()'><b>shouldLocateElementByXPath</b><br>Test class: com.juaracoding.locators.BasicEightLocatorsTest<br>Test method: Locator 8: By.xpath</td>
+<td></td>
+<td>0</td>
+<td>com.juaracoding.locators.BasicEightLocatorsTest@3e3047e6</td></tr>
+<tr>
+<td title='com.juaracoding.locators.DynamicXPathAxesTest.shouldNavigateUsingFollowingSibling()'><b>shouldNavigateUsingFollowingSibling</b><br>Test class: com.juaracoding.locators.DynamicXPathAxesTest<br>Test method: XPath following-sibling untuk navigasi baris tabel</td>
+<td></td>
+<td>0</td>
+<td>com.juaracoding.locators.DynamicXPathAxesTest@37e547da</td></tr>
+</table><p>
+</body>
+</html>

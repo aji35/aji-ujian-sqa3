@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="16" passed="16" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-10-25T20:58:26 WIB" name="Surefire suite" finished-at="2026-10-25T20:59:11 WIB" duration-ms="44841">
+    <groups>
+    </groups>
+    <test started-at="2026-10-25T20:58:26 WIB" name="Surefire test" finished-at="2026-10-25T20:59:11 WIB" duration-ms="44841">
+      <class name="com.juaracoding.locators.BasicEightLocatorsTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.juaracoding.locators.BasicEightLocatorsTest@3e3047e6]" started-at="2026-10-25T20:58:38 WIB" name="setUp" finished-at="2026-10-25T20:58:40 WIB" duration-ms="1503" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="loadPage()[pri:0, instance:com.juaracoding.locators.BasicEightLocatorsTest@3e3047e6]" started-at="2026-10-25T20:58:40 WIB" name="loadPage" finished-at="2026-10-25T20:58:40 WIB" depends-on-methods="com.juaracoding.locators.BaseTest.setUp" duration-ms="331" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadPage -->
+        <test-method signature="shouldLocateElementByClassName()[pri:0, instance:com.juaracoding.locators.BasicEightLocatorsTest@3e3047e6]" started-at="2026-10-25T20:58:40 WIB" name="shouldLocateElementByClassName" description="Locator 3: By.className" finished-at="2026-10-25T20:58:40 WIB" duration-ms="39" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldLocateElementByClassName -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.juaracoding.locators.BasicEightLocatorsTest@3e3047e6]" started-at="2026-10-25T20:58:40 WIB" name="tearDown" finished-at="2026-10-25T20:58:41 WIB" duration-ms="539" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.juaracoding.locators.BasicEightLocatorsTest@3e3047e6]" started-at="2026-10-25T20:58:41 WIB" name="setUp" finished-at="2026-10-25T20:58:43 WIB" duration-ms="2307" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="loadPage()[pri:0, instance:com.juaracoding.locators.BasicEightLocatorsTest@3e3047e6]" started-at="2026-10-25T20:58:43 WIB" name="loadPage" finished-at="2026-10-25T20:58:43 WIB" depends-on-methods="com.juaracoding.locators.BaseTest.setUp" duration-ms="309" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadPage -->
+        <test-method signature="shouldLocateElementByCssSelector()[pri:0, instance:com.juaracoding.locators.BasicEightLocatorsTest@3e3047e6]" started-at="2026-10-25T20:58:43 WIB" name="shouldLocateElementByCssSelector" description="Locator 7: By.cssSelector" finished-at="2026-10-25T20:58:43 WIB" duration-ms="40" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldLocateElementByCssSelector -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.juaracoding.locators.BasicEightLocatorsTest@3e3047e6]" started-at="2026-10-25T20:58:43 WIB" name="tearDown" finished-at="2026-10-25T20:58:44 WIB" duration-ms="511" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.juaracoding.locators.BasicEightLocatorsTest@3e3047e6]" started-at="2026-10-25T20:58:44 WIB" name="setUp" finished-at="2026-10-25T20:58:45 WIB" duration-ms="1576" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="loadPage()[pri:0, instance:com.juaracoding.locators.BasicEightLocatorsTest@3e3047e6]" started-at="2026-10-25T20:58:45 WIB" name="loadPage" finished-at="2026-10-25T20:58:46 WIB" depends-on-methods="com.juaracoding.locators.BaseTest.setUp" duration-ms="328" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadPage -->
+        <test-method signature="shouldLocateElementById()[pri:0, instance:com.juaracoding.locators.BasicEightLocatorsTest@3e3047e6]" started-at="2026-10-25T20:58:46 WIB" name="shouldLocateElementById" description="Locator 1: By.id" finished-at="2026-10-25T20:58:46 WIB" duration-ms="49" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldLocateElementById -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.juaracoding.locators.BasicEightLocatorsTest@3e3047e6]" started-at="2026-10-25T20:58:46 WIB" name="tearDown" finished-at="2026-10-25T20:58:47 WIB" duration-ms="948" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.juaracoding.locators.BasicEightLocatorsTest@3e3047e6]" started-at="2026-10-25T20:58:47 WIB" name="setUp" finished-at="2026-10-25T20:58:48 WIB" duration-ms="1479" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="loadPage()[pri:0, instance:com.juaracoding.locators.BasicEightLocatorsTest@3e3047e6]" started-at="2026-10-25T20:58:48 WIB" name="loadPage" finished-at="2026-10-25T20:58:48 WIB" depends-on-methods="com.juaracoding.locators.BaseTest.setUp" duration-ms="339" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadPage -->
+        <test-method signature="shouldLocateElementByLinkText()[pri:0, instance:com.juaracoding.locators.BasicEightLocatorsTest@3e3047e6]" started-at="2026-10-25T20:58:48 WIB" name="shouldLocateElementByLinkText" description="Locator 5: By.linkText" finished-at="2026-10-25T20:58:48 WIB" duration-ms="45" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldLocateElementByLinkText -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.juaracoding.locators.BasicEightLocatorsTest@3e3047e6]" started-at="2026-10-25T20:58:48 WIB" name="tearDown" finished-at="2026-10-25T20:58:49 WIB" duration-ms="547" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.juaracoding.locators.BasicEightLocatorsTest@3e3047e6]" started-at="2026-10-25T20:58:49 WIB" name="setUp" finished-at="2026-10-25T20:58:51 WIB" duration-ms="2244" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="loadPage()[pri:0, instance:com.juaracoding.locators.BasicEightLocatorsTest@3e3047e6]" started-at="2026-10-25T20:58:51 WIB" name="loadPage" finished-at="2026-10-25T20:58:52 WIB" depends-on-methods="com.juaracoding.locators.BaseTest.setUp" duration-ms="326" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadPage -->
+        <test-method signature="shouldLocateElementByName()[pri:0, instance:com.juaracoding.locators.BasicEightLocatorsTest@3e3047e6]" started-at="2026-10-25T20:58:52 WIB" name="shouldLocateElementByName" description="Locator 2: By.name" finished-at="2026-10-25T20:58:52 WIB" duration-ms="40" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldLocateElementByName -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.juaracoding.locators.BasicEightLocatorsTest@3e3047e6]" started-at="2026-10-25T20:58:52 WIB" name="tearDown" finished-at="2026-10-25T20:58:52 WIB" duration-ms="554" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.juaracoding.locators.BasicEightLocatorsTest@3e3047e6]" started-at="2026-10-25T20:58:52 WIB" name="setUp" finished-at="2026-10-25T20:58:54 WIB" duration-ms="1824" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="loadPage()[pri:0, instance:com.juaracoding.locators.BasicEightLocatorsTest@3e3047e6]" started-at="2026-10-25T20:58:54 WIB" name="loadPage" finished-at="2026-10-25T20:58:54 WIB" depends-on-methods="com.juaracoding.locators.BaseTest.setUp" duration-ms="354" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadPage -->
+        <test-method signature="shouldLocateElementByPartialLinkText()[pri:0, instance:com.juaracoding.locators.BasicEightLocatorsTest@3e3047e6]" started-at="2026-10-25T20:58:54 WIB" name="shouldLocateElementByPartialLinkText" description="Locator 6: By.partialLinkText" finished-at="2026-10-25T20:58:54 WIB" duration-ms="52" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldLocateElementByPartialLinkText -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.juaracoding.locators.BasicEightLocatorsTest@3e3047e6]" started-at="2026-10-25T20:58:54 WIB" name="tearDown" finished-at="2026-10-25T20:58:55 WIB" duration-ms="516" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.juaracoding.locators.BasicEightLocatorsTest@3e3047e6]" started-at="2026-10-25T20:58:55 WIB" name="setUp" finished-at="2026-10-25T20:58:57 WIB" duration-ms="1785" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="loadPage()[pri:0, instance:com.juaracoding.locators.BasicEightLocatorsTest@3e3047e6]" started-at="2026-10-25T20:58:57 WIB" name="loadPage" finished-at="2026-10-25T20:58:57 WIB" depends-on-methods="com.juaracoding.locators.BaseTest.setUp" duration-ms="309" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadPage -->
+        <test-method signature="shouldLocateElementByTagName()[pri:0, instance:com.juaracoding.locators.BasicEightLocatorsTest@3e3047e6]" started-at="2026-10-25T20:58:57 WIB" name="shouldLocateElementByTagName" description="Locator 4: By.tagName" finished-at="2026-10-25T20:58:57 WIB" duration-ms="51" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldLocateElementByTagName -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.juaracoding.locators.BasicEightLocatorsTest@3e3047e6]" started-at="2026-10-25T20:58:57 WIB" name="tearDown" finished-at="2026-10-25T20:58:58 WIB" duration-ms="614" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.juaracoding.locators.BasicEightLocatorsTest@3e3047e6]" started-at="2026-10-25T20:58:58 WIB" name="setUp" finished-at="2026-10-25T20:59:00 WIB" duration-ms="1837" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="loadPage()[pri:0, instance:com.juaracoding.locators.BasicEightLocatorsTest@3e3047e6]" started-at="2026-10-25T20:59:00 WIB" name="loadPage" finished-at="2026-10-25T20:59:00 WIB" depends-on-methods="com.juaracoding.locators.BaseTest.setUp" duration-ms="380" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadPage -->
+        <test-method signature="shouldLocateElementByXPath()[pri:0, instance:com.juaracoding.locators.BasicEightLocatorsTest@3e3047e6]" started-at="2026-10-25T20:59:00 WIB" name="shouldLocateElementByXPath" description="Locator 8: By.xpath" finished-at="2026-10-25T20:59:00 WIB" duration-ms="59" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldLocateElementByXPath -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.juaracoding.locators.BasicEightLocatorsTest@3e3047e6]" started-at="2026-10-25T20:59:00 WIB" name="tearDown" finished-at="2026-10-25T20:59:01 WIB" duration-ms="644" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.juaracoding.locators.BasicEightLocatorsTest -->
+      <class name="com.juaracoding.locators.DynamicXPathAxesTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.juaracoding.locators.DynamicXPathAxesTest@37e547da]" started-at="2026-10-25T20:59:01 WIB" name="setUp" finished-at="2026-10-25T20:59:02 WIB" duration-ms="1618" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="loadPage()[pri:0, instance:com.juaracoding.locators.DynamicXPathAxesTest@37e547da]" started-at="2026-10-25T20:59:02 WIB" name="loadPage" finished-at="2026-10-25T20:59:03 WIB" depends-on-methods="com.juaracoding.locators.BaseTest.setUp" duration-ms="356" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadPage -->
+        <test-method signature="shouldLocateDynamicText()[pri:0, instance:com.juaracoding.locators.DynamicXPathAxesTest@37e547da]" started-at="2026-10-25T20:59:03 WIB" name="shouldLocateDynamicText" description="XPath untuk teks dan atribut dinamis" finished-at="2026-10-25T20:59:03 WIB" duration-ms="79" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldLocateDynamicText -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.juaracoding.locators.DynamicXPathAxesTest@37e547da]" started-at="2026-10-25T20:59:03 WIB" name="tearDown" finished-at="2026-10-25T20:59:03 WIB" duration-ms="540" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.juaracoding.locators.DynamicXPathAxesTest@37e547da]" started-at="2026-10-25T20:59:03 WIB" name="setUp" finished-at="2026-10-25T20:59:05 WIB" duration-ms="1564" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="loadPage()[pri:0, instance:com.juaracoding.locators.DynamicXPathAxesTest@37e547da]" started-at="2026-10-25T20:59:05 WIB" name="loadPage" finished-at="2026-10-25T20:59:05 WIB" depends-on-methods="com.juaracoding.locators.BaseTest.setUp" duration-ms="361" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadPage -->
+        <test-method signature="shouldNavigateUsingAncestor()[pri:0, instance:com.juaracoding.locators.DynamicXPathAxesTest@37e547da]" started-at="2026-10-25T20:59:05 WIB" name="shouldNavigateUsingAncestor" description="XPath ancestor untuk menemukan konteks baris tabel" finished-at="2026-10-25T20:59:05 WIB" duration-ms="115" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldNavigateUsingAncestor -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.juaracoding.locators.DynamicXPathAxesTest@37e547da]" started-at="2026-10-25T20:59:05 WIB" name="tearDown" finished-at="2026-10-25T20:59:06 WIB" duration-ms="584" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.juaracoding.locators.DynamicXPathAxesTest@37e547da]" started-at="2026-10-25T20:59:06 WIB" name="setUp" finished-at="2026-10-25T20:59:08 WIB" duration-ms="1785" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="loadPage()[pri:0, instance:com.juaracoding.locators.DynamicXPathAxesTest@37e547da]" started-at="2026-10-25T20:59:08 WIB" name="loadPage" finished-at="2026-10-25T20:59:08 WIB" depends-on-methods="com.juaracoding.locators.BaseTest.setUp" duration-ms="290" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadPage -->
+        <test-method signature="shouldNavigateUsingFollowingSibling()[pri:0, instance:com.juaracoding.locators.DynamicXPathAxesTest@37e547da]" started-at="2026-10-25T20:59:08 WIB" name="shouldNavigateUsingFollowingSibling" description="XPath following-sibling untuk navigasi baris tabel" finished-at="2026-10-25T20:59:08 WIB" duration-ms="75" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldNavigateUsingFollowingSibling -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.juaracoding.locators.DynamicXPathAxesTest@37e547da]" started-at="2026-10-25T20:59:08 WIB" name="tearDown" finished-at="2026-10-25T20:59:08 WIB" duration-ms="505" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.juaracoding.locators.DynamicXPathAxesTest@37e547da]" started-at="2026-10-25T20:59:08 WIB" name="setUp" finished-at="2026-10-25T20:59:10 WIB" duration-ms="1545" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="loadPage()[pri:0, instance:com.juaracoding.locators.DynamicXPathAxesTest@37e547da]" started-at="2026-10-25T20:59:10 WIB" name="loadPage" finished-at="2026-10-25T20:59:10 WIB" depends-on-methods="com.juaracoding.locators.BaseTest.setUp" duration-ms="322" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadPage -->
+        <test-method signature="shouldUseBooleanConditions()[pri:0, instance:com.juaracoding.locators.DynamicXPathAxesTest@37e547da]" started-at="2026-10-25T20:59:10 WIB" name="shouldUseBooleanConditions" description="XPath dengan kondisi boolean AND dan OR" finished-at="2026-10-25T20:59:10 WIB" duration-ms="76" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldUseBooleanConditions -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.juaracoding.locators.DynamicXPathAxesTest@37e547da]" started-at="2026-10-25T20:59:10 WIB" name="tearDown" finished-at="2026-10-25T20:59:11 WIB" duration-ms="534" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.juaracoding.locators.DynamicXPathAxesTest -->
+      <class name="com.juaracoding.locators.AdvancedCssSelectorTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.juaracoding.locators.AdvancedCssSelectorTest@4de5031f]" started-at="2026-10-25T20:58:26 WIB" name="setUp" finished-at="2026-10-25T20:58:29 WIB" duration-ms="3151" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="loadPage()[pri:0, instance:com.juaracoding.locators.AdvancedCssSelectorTest@4de5031f]" started-at="2026-10-25T20:58:29 WIB" name="loadPage" finished-at="2026-10-25T20:58:30 WIB" depends-on-methods="com.juaracoding.locators.BaseTest.setUp" duration-ms="170" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadPage -->
+        <test-method signature="shouldUseAdjacentSiblingCombinator()[pri:0, instance:com.juaracoding.locators.AdvancedCssSelectorTest@4de5031f]" started-at="2026-10-25T20:58:30 WIB" name="shouldUseAdjacentSiblingCombinator" description="CSS adjacent sibling combinator" finished-at="2026-10-25T20:58:30 WIB" duration-ms="100" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldUseAdjacentSiblingCombinator -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.juaracoding.locators.AdvancedCssSelectorTest@4de5031f]" started-at="2026-10-25T20:58:30 WIB" name="tearDown" finished-at="2026-10-25T20:58:30 WIB" duration-ms="594" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.juaracoding.locators.AdvancedCssSelectorTest@4de5031f]" started-at="2026-10-25T20:58:30 WIB" name="setUp" finished-at="2026-10-25T20:58:32 WIB" duration-ms="1858" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="loadPage()[pri:0, instance:com.juaracoding.locators.AdvancedCssSelectorTest@4de5031f]" started-at="2026-10-25T20:58:32 WIB" name="loadPage" finished-at="2026-10-25T20:58:32 WIB" depends-on-methods="com.juaracoding.locators.BaseTest.setUp" duration-ms="334" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadPage -->
+        <test-method signature="shouldUseDirectChildCombinator()[pri:0, instance:com.juaracoding.locators.AdvancedCssSelectorTest@4de5031f]" started-at="2026-10-25T20:58:32 WIB" name="shouldUseDirectChildCombinator" description="CSS direct child combinator" finished-at="2026-10-25T20:58:33 WIB" duration-ms="91" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldUseDirectChildCombinator -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.juaracoding.locators.AdvancedCssSelectorTest@4de5031f]" started-at="2026-10-25T20:58:33 WIB" name="tearDown" finished-at="2026-10-25T20:58:33 WIB" duration-ms="552" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.juaracoding.locators.AdvancedCssSelectorTest@4de5031f]" started-at="2026-10-25T20:58:33 WIB" name="setUp" finished-at="2026-10-25T20:58:35 WIB" duration-ms="1512" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="loadPage()[pri:0, instance:com.juaracoding.locators.AdvancedCssSelectorTest@4de5031f]" started-at="2026-10-25T20:58:35 WIB" name="loadPage" finished-at="2026-10-25T20:58:35 WIB" depends-on-methods="com.juaracoding.locators.BaseTest.setUp" duration-ms="310" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadPage -->
+        <test-method signature="shouldUsePseudoClasses()[pri:0, instance:com.juaracoding.locators.AdvancedCssSelectorTest@4de5031f]" started-at="2026-10-25T20:58:35 WIB" name="shouldUsePseudoClasses" description="CSS pseudo-classes: nth-child, first-child, last-child, checked, dan not" finished-at="2026-10-25T20:58:35 WIB" duration-ms="164" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldUsePseudoClasses -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.juaracoding.locators.AdvancedCssSelectorTest@4de5031f]" started-at="2026-10-25T20:58:35 WIB" name="tearDown" finished-at="2026-10-25T20:58:36 WIB" duration-ms="493" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.juaracoding.locators.AdvancedCssSelectorTest@4de5031f]" started-at="2026-10-25T20:58:36 WIB" name="setUp" finished-at="2026-10-25T20:58:37 WIB" duration-ms="1547" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="loadPage()[pri:0, instance:com.juaracoding.locators.AdvancedCssSelectorTest@4de5031f]" started-at="2026-10-25T20:58:37 WIB" name="loadPage" finished-at="2026-10-25T20:58:37 WIB" depends-on-methods="com.juaracoding.locators.BaseTest.setUp" duration-ms="331" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadPage -->
+        <test-method signature="shouldUseSubstringMatchers()[pri:0, instance:com.juaracoding.locators.AdvancedCssSelectorTest@4de5031f]" started-at="2026-10-25T20:58:37 WIB" name="shouldUseSubstringMatchers" description="CSS substring matchers: starts-with, ends-with, dan contains" finished-at="2026-10-25T20:58:38 WIB" duration-ms="99" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldUseSubstringMatchers -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.juaracoding.locators.AdvancedCssSelectorTest@4de5031f]" started-at="2026-10-25T20:58:38 WIB" name="tearDown" finished-at="2026-10-25T20:58:38 WIB" duration-ms="546" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.juaracoding.locators.AdvancedCssSelectorTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
